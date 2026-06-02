@@ -1,0 +1,2 @@
+import{E as l,D as n}from"./redux-Emb1A9DM.js";import{B as C,C as u,E as s}from"./index-BrJg4gFA.js";const f=()=>{const t=l(),o=n(C),{data:e,isLoading:r,isFetching:c,error:a,refetch:g}=u();return{categories:(e==null?void 0:e.categories)||(e==null?void 0:e.data)||[],selectedCategory:o,isLoading:r,isFetching:c,error:a,selectCategory:i=>t(s(i)),clearCategory:()=>t(s(null)),refetch:g}};export{f as u};
+//# sourceMappingURL=useCategories-BemnpbBd.js.map

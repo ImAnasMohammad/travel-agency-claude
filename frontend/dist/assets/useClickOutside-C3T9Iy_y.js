@@ -1,0 +1,2 @@
+import{r as t}from"./redux-Emb1A9DM.js";const a=(r,s=["mousedown","touchstart"])=>{const u=t.useRef(null),c=t.useRef(r);return t.useEffect(()=>{c.current=r},[r]),t.useEffect(()=>{const n=e=>{const o=u.current;!o||o.contains(e.target)||c.current(e)};return s.forEach(e=>document.addEventListener(e,n,{passive:!0})),()=>{s.forEach(e=>document.removeEventListener(e,n))}},[s]),u};export{a as u};
+//# sourceMappingURL=useClickOutside-C3T9Iy_y.js.map

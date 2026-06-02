@@ -1,0 +1,76 @@
+/*
+ *  FileName:-     Spinner.jsx
+ *  Description:-  Lightweight spinner component for loading states
+ *  Author:-       Shaik Mohammad Anas
+ *  Created-date:- 13-04-2026
+ */
+
+import React from 'react';
+
+function Spinner({
+  size = 20,
+  color = 'currentColor',
+  thickness = 2,
+  className = '',
+  label = 'Loading...',
+}) {
+  return (
+    <svg
+      className={`animate-spin ${className}`}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      role="status"
+      aria-label={label}
+    >
+      <circle
+        className="opacity-20"
+        cx="12"
+        cy="12"
+        r="10"
+        stroke={color}
+        strokeWidth={thickness}
+      />
+      <path
+        className="opacity-80"
+        fill={color}
+        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+      />
+    </svg>
+  );
+}
+
+/* ============================================================
+   Dot Spinner variant
+   ============================================================ */
+export function DotSpinner({ className = '' }) {
+  return (
+    <div className={`flex items-center gap-1 ${className}`} role="status" aria-label="Loading">
+      {[0, 1, 2].map((i) => (
+        <div
+          key={i}
+          className="w-2 h-2 rounded-full bg-current animate-bounce"
+          style={{ animationDelay: `${i * 0.15}s` }}
+        />
+      ))}
+    </div>
+  );
+}
+
+/* ============================================================
+   Ring Spinner variant
+   ============================================================ */
+export function RingSpinner({ size = 32, className = '' }) {
+  return (
+    <div
+      className={`rounded-full border-2 border-black/10 border-t-black animate-spin ${className}`}
+      style={{ width: size, height: size }}
+      role="status"
+      aria-label="Loading"
+    />
+  );
+}
+
+export default Spinner;

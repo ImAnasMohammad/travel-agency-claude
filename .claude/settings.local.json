@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\(''pdfplumber available''\\)\")",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(node -e \":*)",
+      "Bash(node -e \"require\\(''''./routes/indexRoutes''''\\)\")",
+      "Bash(grep:*)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/ShaikMohammadAnas/Desktop/projects/travel-agency/frontend/**)",
+      "Bash(mongod --version)",
+      "Bash(net start:*)",
+      "Bash(sc query:*)",
+      "Bash(node databases/seedData.js)",
+      "Bash(curl:*)",
+      "Bash(node -e ':*)",
+      "Bash(node -e \"require\\('dayjs'\\)\")"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\.cf5ea174ce77b44fc7c42d719b3f81810b5bb53a-audit.json",
+    "files": [
+        {
+            "date": 1776418125495,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\rejections-2026-04-17.log",
+            "hash": "709f845f38fe073a9083c2bd69be166de007ac87d726cc531b53d8be02f6d194"
+        },
+        {
+            "date": 1776849088568,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\rejections-2026-04-22.log",
+            "hash": "38dc676a3d82e3a86cbf4f1a0dd3678930cdf5db578144c0b282d91bb705c71f"
+        },
+        {
+            "date": 1776956903693,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\rejections-2026-04-23.log",
+            "hash": "b8008eadd7762c6923b7f700a63360e1233e61eba26e272635a2f25357dfdf9e"
+        },
+        {
+            "date": 1777010502405,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\rejections-2026-04-24.log",
+            "hash": "c3d0fb17f342a198adf21edb9eb6894535ab48d2680676d5f26d9861825cb205"
+        },
+        {
+            "date": 1777176862824,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\rejections-2026-04-26.log",
+            "hash": "5ab9fd77d63fba7a5ab2dce0ba058b365f6dd2451c718506b018690bd8c3fdfd"
+        },
+        {
+            "date": 1777359427730,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\rejections-2026-04-28.log",
+            "hash": "ca6e67c1988a6953b71d469108769ac445c01a80adb2f8794b45d7c63f42dd69"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\.c6c0922ee807cc2a28c48af85e614e7e929543e1-audit.json",
+    "files": [
+        {
+            "date": 1776082804468,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\combined-2026-04-13.log",
+            "hash": "14ed41589c64cb0945fe115913c105dcd4b49128f0a62c03cee2359521d4e2d2"
+        },
+        {
+            "date": 1776142948602,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\combined-2026-04-14.log",
+            "hash": "802c416493331f3432824e109c98468d539a7952c62da198160b0001c50e96b0"
+        },
+        {
+            "date": 1776418125489,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\combined-2026-04-17.log",
+            "hash": "8436a83710b71e777a86e64b2fa1aefed3490096a5a92a553041afc17d0dbc0c"
+        },
+        {
+            "date": 1776849088563,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\combined-2026-04-22.log",
+            "hash": "08985a82ddb8946cd2c1530af7ef86a0587e8fd7487a8f7884e32968efe016d2"
+        },
+        {
+            "date": 1776956903689,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\combined-2026-04-23.log",
+            "hash": "dfc41d7af4492adfcd7d748fc87a73dad69e713faa9e90f8392a4e0f300a6746"
+        },
+        {
+            "date": 1777010502402,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\combined-2026-04-24.log",
+            "hash": "61251d8a1f44cdf31077a32518dbe75aa973a0a475dcf5a41824ee47bb756aad"
+        },
+        {
+            "date": 1777176862821,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\combined-2026-04-26.log",
+            "hash": "eb264fcbece2cfb461e541322002e8b677087d94ed2b5064ab39fafdc6628fd0"
+        },
+        {
+            "date": 1777359427726,
+            "name": "C:\\Users\\ShaikMohammadAnas\\Desktop\\projects\\travel-agency\\backend\\logs\\combined-2026-04-28.log",
+            "hash": "8e544f88bd09fcfef52c285c3bb6abea41d0e1bffc5f8b42ba57b7f82276f09d"
+        }
+    ],
+    "hashType": "sha256"
+}
